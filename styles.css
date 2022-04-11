@@ -106,7 +106,7 @@
     .navbar__container{
         display: flex;
         justify-content: space-between;
-        height: 80px;
+        height: 100%;
         z-index: 1;
         width: 100%;
         max-width: 1280px;
@@ -130,7 +130,7 @@
     /* class that triggers the menu for javascript */
     .navbar__menu.active{
         background: #131313;
-        top: 100%;
+        top: 80%;
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 99;
@@ -141,11 +141,12 @@
     #navbar__logo{
         padding-left: 24px;
     }
+
     
     .navbar__toggle .bar{
-        width: 24px;
+        width: 25px;
         height: 3px;
-        margin: 4px auto;
+        margin: 5px auto;
         transition: all 0.3s ease-in-out;
         background: white;
     }
@@ -176,8 +177,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 80px;
-        height: 80px;
+        width: 30%;
+        height: 30%;
         margin: 0;
     }
 

@@ -482,7 +482,7 @@
 
 .footer__link--wrapper {
     display: flex;
-    padding: 100px 0 0 0;
+    
 }
 
 .footer__link--items {
@@ -569,7 +569,8 @@
     }
 
     .footer__link--wrapper {
-        flex-direction: column;   
+        flex-direction: column; 
+          
     }
 
     .social__media--wrap {
